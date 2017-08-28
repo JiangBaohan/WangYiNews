@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义的属性方便引用-->
+    <attr name="mainBackground" format="color|reference"></attr>
+
+    <attr name="textColor" format="reference|color"></attr>
+
+</resources>

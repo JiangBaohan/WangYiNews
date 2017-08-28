@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+  <LinearLayout
+      android:id="@+id/dingyue_tuijian"
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+
+<ImageView
+    android:layout_marginLeft="25dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tuijian"/>
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="30dp"
+          android:text="每日订阅推荐"/>
+  </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#63787F"
+        android:text="我的订阅"/>
+
+    <TextView
+        android:id="@+id/dingyue_tianjiadingyue"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="2dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#63787F"
+        android:text="添加订阅"/>
+</LinearLayout>
